@@ -8,7 +8,7 @@ In the `Pandas_class.ipynb` file, I explore the core features of the Pandas libr
 
 <details>
   <summary>Click to see details</summary>
-
+  <br>
 <ul>
   <li><strong>Creating a Python Library and Accessing it in Google Colab</strong>: Mounting a Google Drive folder to integrate external files into the Colab environment.</li>
   <li><strong>Importing Modules (Pandas)</strong>: Setting up the environment for efficient data analysis.</li>
@@ -24,13 +24,107 @@ In the `Pandas_class.ipynb` file, I explore the core features of the Pandas libr
 
 ---
 
-### Project 2: Descriptive Statistics - Goodlife Fitness Case Study
+### Project 2: Practice with Pandas
+[Click to open the file...](https://github.com/shap0011/machine_learning_fall_2024/blob/main/Forbes_Billionaire_Homework.ipynb)
+
+This section, the `Forbes_Billionaire_Homework.ipynb` file, showcases in-class practice with the Pandas library. It focuses on analyzing and manipulating a dataset containing information about billionaires from the Forbes 2020 list.
+
+<details>
+  <summary>Click to see details</summary>
+  <br>
+  <ul>
+  <li><strong>Mounting Google Drive in Google Colab:</strong>Enables seamless access to files stored in Google Drive for data loading.</li>
+  <li><strong>Importing the Pandas Library</strong></li>
+  <li><strong>Loading the <code>real_estate.csv</code> Dataset into a DataFrame</strong></li>
+  <li><strong>Displaying Basic Dataset Information:</strong>
+    <ul>
+      <li>Use <code>.head()</code> and <code>.tail()</code> to view subsets of the data.</li>
+    </ul>
+  </li>
+  <li><strong>Identify the Name at the 0th Index:</strong>
+    <ul>
+      <li>Display the name assigned to the 0th index in the DataFrame.</li>
+    </ul>
+  </li>
+  <li><strong>Print the Dataset Dimensions:</strong>
+    <ul>
+      <li>Output the number of rows and columns in the dataset.</li>
+    </ul>
+  </li>
+  <li><strong>Display Record Counts:</strong>
+    <ul>
+      <li>Show the last record using the <code>.tail(1)</code> function.</li>
+      <li>Display the total number of rows (records).</li>
+      <li>Display the total number of columns (attributes).</li>
+    </ul>
+  </li>
+  <li><strong>Check Data Types:</strong>
+    <ul>
+      <li>Display the data types of all fields.</li>
+      <li>Identify the data type of the <code>Source</code> variable.</li>
+    </ul>
+  </li>
+  <li><strong>Check for Missing Values:</strong>
+    <ul>
+      <li>Use <code>.isna().sum()</code> and <code>.isnull().sum()</code> to identify missing values.</li>
+    </ul>
+  </li>
+  <li><strong>Analyze Data Values:</strong>
+    <ul>
+      <li>Use <code>.value_counts()</code> to inspect values in specific columns.</li>
+    </ul>
+  </li>
+  <li><strong>Check Column Types:</strong>
+    <ul>
+      <li>Verify the types of the columns.</li>
+    </ul>
+  </li>
+  <li><strong>Basic Statistics:</strong>
+    <ul>
+      <li>Print descriptive statistics using the <code>.describe()</code> function.</li>
+    </ul>
+  </li>
+  <li><strong>Identify the Youngest Billionaire:</strong>
+    <ul>
+      <li>Find and display the youngest billionaire in the dataset.</li>
+    </ul>
+  </li>
+  <li><strong>Sort and Reset the Index:</strong>
+    <ul>
+      <li>Sort the dataset by <code>Age</code> in ascending order using <code>.sort_values()</code> and reset the index.</li>
+    </ul>
+  </li>
+  <li><strong>Create a New Column:</strong>
+    <ul>
+      <li>Add a column called <code>Year_of_birth.</code></li>
+    </ul>
+  </li>
+  <li><strong>Filter Billionaires Born in 1996:</strong>
+    <ul>
+      <li>Select records of billionaires born in 1996.</li>
+    </ul>
+  </li>
+  <li><strong>Count Billionaires Born in 1996:</strong>
+    <ul>
+      <li>Display the total number of billionaires born in 1996 using the <code>.count()</code> function.</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Through practical exercises, the dataset is explored using Pandas functions to extract insights, such as identifying the youngest billionaire, handling missing data, creating new columns, and filtering data based on specific criteria.</p>
+
+</details>
+
+---
+
+### Project 3: Descriptive Statistics - Goodlife Fitness Case Study
 [Click to open the file...](https://github.com/shap0011/machine_learning_fall_2024/blob/main/Goodlife_Fitness_Solution.ipynb)
 
 In the `Goodlife_Fitness_Solutions.ipynb` file, I perform a descriptive analysis to create customer profiles for each GoodLife Fitness membership option. This analysis explores key statistical insights and visualizations, covering the following topics:  
 
 <details>
   <summary>Click to see details</summary>
+  <br>
   <ul>
   <li><strong>Importing Libraries and Loading the Dataset</strong>: Import the necessary Python packages and load the <code>GoodlifeFitness.csv</code> dataset.</li>
   <li><strong>Basic Data Exploration</strong>: Print basic information about the dataset, check for null values, and review the data's structure.</li>
@@ -68,14 +162,14 @@ In the `Goodlife_Fitness_Solutions.ipynb` file, I perform a descriptive analysis
 
 ---
 
-### Project 3: Standardization of Normal Variables - Z-Score Analysis 
+### Project 4: Standardization of Normal Variables - Z-Score Analysis 
 [Click to open the file...](https://github.com/shap0011/machine_learning_fall_2024/blob/main/Z_score_Statistics.ipynb)
 
 In the `Z_score_Statistics.ipynb` file, I perform standardizing normal variables using the Z-score method. This file includes the following steps: 
 
 <details>
   <summary>Click to see details</summary>
-
+  <br>
 <ul>
   <li><strong>Mounting Google Drive in Google Colab</strong>: Access files stored in Google Drive to enable seamless data loading.</li>
   <li><strong>Importing Libraries and Loading the Dataset</strong>: : Load the necessary Python packages and read the <code>scores.csv</code> file into a DataFrame.</li>
@@ -107,14 +201,14 @@ In the `Z_score_Statistics.ipynb` file, I perform standardizing normal variables
 
 ---
 
-### Project 4: Data Visualization with Python 
+### Project 5: Data Visualization with Python 
 [Click to open the file...](https://github.com/shap0011/machine_learning_fall_2024/blob/main/Data_Visualization.ipynb)
 
 The `Data_Visualization.ipynb` file explores data visualization techniques to gain insights, identify patterns, and draw conclusions using Python.
 
 <details>
   <summary>Click to see details</summary>
-  
+
 <h4>Visualization Libraries in Python</h4>
 
 <ul>
@@ -311,14 +405,14 @@ The `Data_Visualization.ipynb` file explores data visualization techniques to ga
 
 ---
 
-### Project 5: Exploratory Data Analysis (EDA) 
+### Project 6: Exploratory Data Analysis (EDA) 
 [Click to open the file...](https://github.com/shap0011/machine_learning_fall_2024/blob/main/EDA_Solution.ipynb)
 
 In the `EDA_Solution.ipynb` file, I explore and analyze a real estate transaction dataset to uncover insights, identify patterns, and prepare the data for building a predictive pricing model.
 
 <details>
   <summary>Click to see details</summary>
-  
+  <br>
 <ul>
   <li><strong>Mounting Google Drive in Google Colab</strong>: Access files stored in Google Drive to enable seamless data loading.</li>
   <li><strong>Importing Libraries and Loading the Dataset</strong>: 
@@ -393,14 +487,14 @@ In the `EDA_Solution.ipynb` file, I explore and analyze a real estate transactio
 
 ---
 
-### Project 6: Data Cleaning
+### Project 7: Data Cleaning
 [Click to open the file...](https://github.com/shap0011/machine_learning_fall_2024/blob/main/Data_Cleaning_Solution.ipynb)
 
-In Data_Cleaning_Solution.ipynb, I focus on identifying and addressing issues in the dataset, such as handling missing values, detecting and removing outliers, and ensuring data consistency to prepare it for effective model building.
+In `Data_Cleaning_Solution.ipynb`, I focus on identifying and addressing issues in the dataset, such as handling missing values, detecting and removing outliers, and ensuring data consistency to prepare it for effective model building.
 
 <details>
   <summary>Click to see details</summary>
-
+  <br>
 <ul>
   <li><strong>Mounting Google Drive in Google Colab:</strong>
     <ul>
@@ -455,7 +549,7 @@ In Data_Cleaning_Solution.ipynb, I focus on identifying and addressing issues in
   </li>
 </ul>
 
-<p>This section highlights my ability to clean and preprocess data systematically, culminating in the creation of a cleaned dataset stored as `cleaned_df.csv`, which serves as the foundation for further analysis and model development.</p>
+<p>This section highlights my ability to clean and preprocess data systematically, culminating in the creation of a cleaned dataset stored as <code>cleaned_df.csv</code>, which serves as the foundation for further analysis and model development.</p>
 
 </details>
 
