@@ -686,38 +686,38 @@ This project, the `Real_Estate_Solution.ipynb` file, leverages scikit-learn to b
       <li>Enable inline plotting within the notebook to visualize results interactively.</li>
     </ul>
   </li>
-  <li><strong>Importing the Data (`final.csv`):</strong>
+  <li><strong>Importing the Data (<code>final.csv</code>):</strong>
     <ul>
       <li>Load the dataset into a Pandas DataFrame.</li>
     </ul>
   </li>
   <li><strong>Exploring the Dataset:</strong>
     <ul>
-      <li>Display the first five records using the `.head()` function.</li>
-      <li>Display the last five records using the `.tail()` function.</li>
-      <li>View the DataFrame's dimensions using the `df.shape` attribute.</li>
+      <li>Display the first five records using the <code>.head()</code> function.</li>
+      <li>Display the last five records using the <code>.tail()</code> function.</li>
+      <li>View the DataFrame's dimensions using the <code>df.shape</code> attribute.</li>
     </ul>
   </li>
 </ul>
 
 <h2>Linear Regression Model</h2>
 
-1. Import the Linear Regression model from `sklearn.linear_model`.  
-2. Separate input features into `x`.  
-3. Store the target variable in `y`.  
+1. Import the Linear Regression model from <code>sklearn.linear_model</code>.  
+2. Separate input features into <code>x</code>.  
+3. Store the target variable in <code>y</code>.  
 
 <h2>Train-Test Split</h2> 
 
-1. Import the `train_test_split` function from `sklearn.model_selection`.  
+1. Import the <code>train_test_split</code> function from <code>sklearn.model_selection</code>.  
 2. Split the dataset into training and testing subsets.  
 3. Train the Linear Regression model.  
-4. Display the model's coefficients (`coef_`) and intercept.  
+4. Display the model's coefficients (<code>coef_</code>) and intercept.  
 5. Make predictions on the training dataset.  
-6. Evaluate the model using the Mean Absolute Error (MAE) metric from `sklearn.metrics`.  
+6. Evaluate the model using the Mean Absolute Error (MAE) metric from <code>sklearn.metrics</code>.  
 
 <h2>Decision Tree Model</h2>   
 
-1. Import the Decision Tree Regressor from `sklearn.tree`.  
+1. Import the Decision Tree Regressor from <code>sklearn.tree</code>.  
 2. Create an instance of the Decision Tree class.  
 3. Train the Decision Tree model.  
 4. Make predictions using the test dataset.  
@@ -734,14 +734,14 @@ This project, the `Real_Estate_Solution.ipynb` file, leverages scikit-learn to b
     <ul>
       <li>Retrieve the feature names.</li>
       <li>Plot the Decision Tree, including feature names.</li>
-      <li>Save the visualization as `tree.png`.</li>
+      <li>Save the visualization as <code>tree.png</code>.</li>
     </ul>
   </li>
 </ul>
 
 <h2>Random Forest Model</h2> 
 
-1. Import the Random Forest Regressor from `sklearn.ensemble`.  
+1. Import the Random Forest Regressor from <code>sklearn.ensemble</code>.  
 2. Create an instance of the Random Forest model.  
 3. Train the Random Forest model.  
 4. Make predictions on the training and testing datasets.  
@@ -749,9 +749,9 @@ This project, the `Real_Estate_Solution.ipynb` file, leverages scikit-learn to b
 
 <h2>Pickle for Model Serialization</h2>  
 
-1. Import the `pickle` module to save the trained model.  
-2. Save the model using `pickle.dump()`.  
-3. Load the saved model using `pickle.load()`.  
+1. Import the <code>pickle</code> module to save the trained model.  
+2. Save the model using <code>pickle.dump()</code>.  
+3. Load the saved model using <code>pickle.load()</code>.  
 4. Use the loaded model to make predictions on new data.  
   
 <p>Through model training and evaluation, including feature engineering and error analysis, the project aims to achieve a robust real estate prediction model, integrating tools like Pickle for serialization to ensure reproducibility and deployment..</p>
